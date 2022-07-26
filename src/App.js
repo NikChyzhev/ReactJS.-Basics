@@ -1,5 +1,5 @@
 import './App.css';
-import MakePost from './component/component';
+import Post from './component/post';
 
 function App() {
   const posts = [
@@ -31,7 +31,7 @@ function App() {
   
   return (
     <div className="App">
-      {posts.map((post) => <MakePost data = {post} key = {post.id}/>)}
+      {posts.map((post) => <Post data = {post} key = {post.id}/>)}
     </div>
   );
 }
