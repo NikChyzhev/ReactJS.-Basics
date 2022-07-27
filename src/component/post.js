@@ -5,17 +5,15 @@ const Post = ({data}) => {
     const stylePost = {
         backgroundColor: 'gray',
         border: '3px solid orange',
-        margin: '15px',
+        margin: '15px auto',
         height: '300px',
-        width: '400px',
-        margin: 'auto'        
+        width: '400px'                
     };
     const styleHead = {
         border: '1px solid gray',
-        margin: '5px',
+        margin: '5px auto',
         height: '80px',
-        width: '400px',
-        margin: 'auto',
+        width: '400px',      
         display: 'flex',        
     };
     const styleImgIcon = {
